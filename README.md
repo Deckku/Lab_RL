@@ -1,10 +1,10 @@
-# Reinforcement Learning Grid World Project
+# Reinforcement Learning grid project
 
 A complete implementation of reinforcement learning algorithms for grid-based navigation environments.
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This project demonstrates three fundamental approaches to solving navigation problems in a grid world:
 - **Random Baseline**: Random action selection for comparison
@@ -15,7 +15,7 @@ The agent must navigate from a start position to a goal while avoiding obstacles
 
 ---
 
-## 📦 What's Inside
+##What's Inside
 
 ### Core Components
 
@@ -40,7 +40,7 @@ The agent must navigate from a start position to a goal while avoiding obstacles
 
 ---
 
-## 🚀 Quick Start
+##Quick Start
 
 ### Prerequisites
 ```bash
@@ -69,7 +69,7 @@ Trains for 500 episodes using Q-Learning. Visualizes learning curves, exploratio
 
 ---
 
-## ⚙️ Customization
+## Customization
 
 Edit `config.py` to modify:
 ```python
@@ -93,7 +93,7 @@ GOAL_MOVE_INTERVAL = 20         # Steps until goal relocates
 
 ---
 
-## 📊 Understanding the Algorithms
+## Understanding the Algorithms
 
 ### Random Agent
 - **Strategy**: Uniform random action selection
@@ -116,7 +116,7 @@ GOAL_MOVE_INTERVAL = 20         # Steps until goal relocates
 
 ---
 
-## 📈 Output Examples
+## Output Examples
 
 ### Random Agent
 - Multi-panel trajectory visualization
@@ -142,18 +142,9 @@ GOAL_MOVE_INTERVAL = 20         # Steps until goal relocates
 
 ---
 
-## 🔬 Experiment Ideas
 
-1. **Difficulty Scaling**: Increase grid size or add more obstacles
-2. **Reward Engineering**: Test different reward structures
-3. **Hyperparameter Tuning**: Optimize learning rate, discount factor, epsilon decay
-4. **Dynamic Challenges**: Reduce goal movement interval
-5. **Algorithm Comparison**: Run all three agents with identical settings
-6. **Convergence Analysis**: Track learning speed vs environment complexity
 
----
-
-## 🛠️ Technical Details
+##Technical Details
 
 **State Representation**: Discrete integer (0 to n²-1)  
 **Action Space**: 4 discrete actions (UP, DOWN, LEFT, RIGHT)  
@@ -172,7 +163,7 @@ GOAL_MOVE_INTERVAL = 20         # Steps until goal relocates
 
 ---
 
-## 📝 Notes
+## Notes
 
 - All visualizations use matplotlib and automatically display
 - Animations may require closing the window to continue execution
@@ -182,7 +173,7 @@ GOAL_MOVE_INTERVAL = 20         # Steps until goal relocates
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Import Errors**: Ensure all `__init__.py` files exist in subdirectories  
 **No Plots Showing**: Check if matplotlib backend is configured  
@@ -191,22 +182,7 @@ GOAL_MOVE_INTERVAL = 20         # Steps until goal relocates
 
 ---
 
-## 📚 Learning Resources
 
-This implementation follows standard RL conventions:
-- State-action-reward-next_state tuples
-- Episodic task structure
-- Gymnasium-style API (without the library)
-- Modular agent design
-
-Perfect for understanding:
-- Model-based vs model-free methods
-- Exploration-exploitation tradeoffs
-- Value functions and policies
-- Convergence behavior
-- Hyperparameter effects
-
----
 
 **Project Status**: Complete and functional  
 **Python Version**: 3.7+  
